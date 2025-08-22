@@ -1,5 +1,5 @@
 ### EX1 Creation of Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform Preprocessing
-### DATE: 
+### DATE: 22-08-2025
 ### AIM: 
   To Create Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform preprocessing
 ### PROCEDURE: 
@@ -10,40 +10,46 @@
 --------------
 Employee Data
 ---------------
+
 @relation employee
-@attribute name {x,y,z,a,b}
+
+@attribute name {p,q,r,s,t}
 @attribute id numeric
 @attribute salary {low,medium,high}
 @attribute exp numeric
 @attribute gender {male,female}
 @attribute phone numeric
+
 @data
-x,101,low,2,male,250311
-y,102,high,3,female,251665
-z,103,medium,1,male,240238
-a,104,low,5,female,200200
-b,105,high,2,male,240240
+p,201,medium,4,female,998877
+q,202,high,6,male,889900
+r,203,low,1,female,776655
+s,204,medium,3,male,665544
+t,205,high,8,female,554433
 
 --------------
 Weather Data
 ---------------
 @relation weather
+
 @attribute outlook {sunny,rainy,overcast}
 @attribute temparature numeric
 @attribute humidity numeric
 @attribute windy {true,false}
 @attribute play {yes,no}
+
 @data
-sunny,85.0,85.0,false,no
-overcast,80.0,90.0,true,no
-sunny,83.0,86.0,false,yes
-rainy,70.0,86.0,false,yes
-rainy,68.0,80.0,false,yes
-rainy,65.0,70.0,true,no
-overcast,64.0,65.0,false,yes
-sunny,72.0,95.0,true,no
-sunny,69.0,70.0,false,yes
-rainy,75.0,80.0,false,yes
+sunny,88.0,78.0,true,no
+rainy,72.0,90.0,false,yes
+overcast,75.0,85.0,true,yes
+sunny,90.0,70.0,false,yes
+rainy,66.0,95.0,true,no
+overcast,80.0,60.0,false,yes
+sunny,85.0,88.0,false,no
+rainy,68.0,75.0,false,yes
+overcast,73.0,82.0,true,yes
+sunny,77.0,65.0,true,yes
+
 ```
 3) After that the file is saved with .arff file format.
 4) Minimize the arff file and then open Start -> Programs -> weka-3-4.
@@ -53,6 +59,10 @@ rainy,75.0,80.0,false,yes
 8) Click on edit button which shows employee table on weka.
 
 ### OUTPUT:
+<img width="1261" height="941" alt="Screenshot 2025-08-08 113321" src="https://github.com/user-attachments/assets/cd69dee8-c5ff-4b4a-a3f3-e8ea99907fe5" />
+
+![WhatsApp Image 2025-08-08 at 11 31 41 AM](https://github.com/user-attachments/assets/38daf447-15ff-46de-a416-40074b41857a)
+
 
 
 
@@ -75,6 +85,10 @@ rainy,75.0,80.0,false,yes
 14) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
+<img width="1226" height="734" alt="Screenshot 2025-08-08 105908" src="https://github.com/user-attachments/assets/34576489-cf6a-4c8d-ac87-f6f40ea5c969" />
+
+<img width="1227" height="733" alt="Screenshot 2025-08-08 111816" src="https://github.com/user-attachments/assets/31037fbc-1f35-49ea-b7e7-80bac605c466" />
+
 
 ### 2) Remove -> Pre-Processing Technique:
 
@@ -91,6 +105,9 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
+<img width="1225" height="737" alt="Screenshot 2025-08-08 105613" src="https://github.com/user-attachments/assets/59bbbf4b-8c84-413e-a603-639ab458a91d" />
+<img width="1232" height="735" alt="Screenshot 2025-08-08 111847" src="https://github.com/user-attachments/assets/d8b95dee-0fcf-4b0b-bfb6-bd5a26c97ee4" />
+
 
 ### Normalize -> Pre-Processing Technique:
 
@@ -107,5 +124,11 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
 
 ### OUTPUT:
+<img width="1224" height="736" alt="Screenshot 2025-08-08 110010" src="https://github.com/user-attachments/assets/a20bd96b-31df-402a-a1e4-29c522cb817a" />
+
+<img width="1224" height="732" alt="Screenshot 2025-08-08 111918" src="https://github.com/user-attachments/assets/4672023a-2858-4e40-9ffa-721113006c75" />
+
+
+
 ### RESULT: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
